@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Complex {
+    public:
+        int real, imaginary;
+        int getReal(int x, int y) {
+            real = x + y;
+            return real;
+        }
+        int getImaginary(int a, int b) {
+            imaginary = a + b;
+            return real;
+        }
+};
+
+int main() {
+    int real1, imaginary1, real2, imaginary2, real, imaginary;
+    cout << "Masukkan dua bilangan complex (Hanya konstanta)" << endl;
+    cin >> real1 >> imaginary1;
+    cin >> real2 >> imaginary2;
+    Complex kompleks;
+    cout << "Hasil Penjumlahan: " << kompleks.getReal(real1, real2) << " + " << kompleks.getImaginary(imaginary1, imaginary2) << "i" << endl;
+}
