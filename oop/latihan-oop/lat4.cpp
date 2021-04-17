@@ -10,7 +10,7 @@ class Complex {
         }
         int getImaginary(int a, int b) {
             imaginary = a + b;
-            return real;
+            return imaginary;
         }
 };
 
