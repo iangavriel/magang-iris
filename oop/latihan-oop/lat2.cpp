@@ -3,7 +3,9 @@ using namespace std;
 
 class Class {
     public:
-    Class(int a, int b);
+    Class(int a, int b) {
+        cout << a + b << endl;
+    };
 };
 
 int main() {
