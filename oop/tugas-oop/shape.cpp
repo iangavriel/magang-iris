@@ -2,8 +2,9 @@
 using namespace std;
 
 class Shape { 
-    public:
+    protected:
         double width, height;
+    public:
         Shape(double x, double y) { //constructor untuk set initial value
             width = x;
             height = y;
