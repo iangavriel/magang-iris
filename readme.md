@@ -62,7 +62,8 @@ void retEven(int* arr, int n) {
     int arr_length = 0;
     for (int i = 0; i < n; i++) {
         if (arr[i] % 2 == 0) {
-            even[arr_length++] = arr[i];
+            even[arr_length] = arr[i];
+            arr_length++;
         }
     }
     for (int k = 0; k < arr_length; k++) {
