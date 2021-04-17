@@ -2,8 +2,10 @@
 using namespace std;
 
 class Complex {
-    public:
+    private:
         int real, imaginary;
+    public:
+        
         int getReal(int x, int y) {
             real = x + y;
             return real;
@@ -15,7 +17,7 @@ class Complex {
 };
 
 int main() {
-    int real1, imaginary1, real2, imaginary2, real, imaginary;
+    int real1, imaginary1, real2, imaginary2;
     cout << "Masukkan dua bilangan complex (Hanya konstanta)" << endl;
     cin >> real1 >> imaginary1;
     cin >> real2 >> imaginary2;
