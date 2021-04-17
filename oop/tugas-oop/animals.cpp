@@ -27,9 +27,11 @@ class Dolphin : public Animal {
 
 int main() {
     Zebra zebra;
+    cin >> zebra.name >> zebra.age;
     Dolphin lumba;
-    zebra.set_value("Zebra", 20);
-    lumba.set_value("Dolphin", 30);
+    cin >> lumba.name >> lumba.age;
+    zebra.set_value(zebra.name, zebra.age);
+    lumba.set_value(lumba.name, lumba.age);
     zebra.message();
     lumba.message();
 }
