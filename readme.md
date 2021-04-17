@@ -12,7 +12,7 @@ Jika kita ingin mengetahui nilai dari variabel yang direferensi pointer, digunak
 ```
 Ketika dijalankan, program akan mengeluarkan nilai 5.
 
-Sama seperti variabel biasa, pointer pun memiliki alamat memori sendiri dan alamat tersebut dapat disimpan pada pointer lainnya. Pointer tersebut dapat dikatakan sebagai **Double Pointer**. Pada Double Pointer, digunakan dua tanda asterisk untuk mendeklarasikan maupun mendereferensi.
+Sama seperti variabel biasa, pointer pun memiliki alamat memori sendiri dan alamat tersebut dapat disimpan pada pointer lainnya. Pointer tersebut dapat dikatakan sebagai **Double Pointer**. Pada Double Pointer, digunakan dua tanda asterisk untuk mendeklarasikan.
 ```
     int** dp = &p;
     cout << **dp << endl;
