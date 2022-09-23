@@ -65,10 +65,10 @@ void retEven(int* arr, int n) {
             even[arr_length] = arr[i];
             arr_length++;
         }
-    }
+    }test123
     for (int k = 0; k < arr_length; k++) {
         cout << even[k] << endl;
     }
 }
 ```
-test123
+
