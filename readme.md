@@ -1,4 +1,4 @@
-TEST BAHWA SUBMODULE BISA
+HHHTEST BAHWA SUBMODULE BISA
 
 # Pointer
 Pointer merupakan suatu variabel yang menyimpan alamat pada memori dari sebuah variabel. Untuk mendapatkan alamat memori dari suatu variabel, digunakan **Operator Address-Of (&)**. Sama seperti variabel biasa, pointer harus dideklarasikan terlebih dahulu baru diisi oleh alamat memori / referensi dari sebuah variabel. Untuk mendeklarasikannya sama saja seperti variabel biasa, tetapi ditambahkan tanda asterisk(\*) di antara tipe data dan nama pointer. Berikut contoh inisiasi dari pointer:
